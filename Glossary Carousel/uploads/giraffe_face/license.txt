@@ -1,8 +1,0 @@
-Model Information:
-* title:	Giraffe Face
-* source:	https://sketchfab.com/3d-models/giraffe-face-4d69425c3a98418681dc3bdb5d84fab8
-* author:	saurabh.buradkar7 (https://sketchfab.com/saurabh.buradkar7)
-
-Model License:
-* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
-* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
