@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>html,body{margin:0;background:#07090B;height:100%;overflow:hidden}a{color:#4E8CE4}a:hover{color:#CADDF7}</style>
+<script>window.OM_SCENES = '[{"name":"Hook","dur":4,"desc":"Your cost at the pump is up [amount]. Here is why and what you can do."},{"name":"Speaker","dur":5,"desc":"Speaker video wipes in at the pump with a name lower third"},{"name":"Headline","dur":6,"desc":"News headline screenshot with source, then the reserved pop culture slot"},{"name":"Mine","dur":10,"desc":"Overlay: Mine went up by [X] this year"},{"name":"Series","dur":20,"desc":"Eight topic cards build in, then a highlight walks through them"},{"name":"Post","dur":5,"desc":"Carousel cover rises with the caption Full breakdown on our post"},{"name":"End","dur":5,"desc":"Cover shrinks to a thumbnail; follow and comment CTA; fades to the opening frame"}]';</script>
+<script>window.OM_PLAYBACK = '{"mode":"loop"}';</script>
+<script>window.TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{"motionEditor":true,"captions":true,"safeZones":false}/*EDITMODE-END*/;</script>
+</helmet>
+<x-import component-from-global-scope="IntroReel" from="./animations-v3.jsx ./tweaks-panel.jsx ./reel.jsx" hint-size="100%,100%" style="position:fixed;inset:0"></x-import>
+</x-dc>
+</body>
+</html>

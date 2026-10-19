@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+<script src="./giraffe-view.js"></script>
+<style>html,body{height:100%;overflow:hidden}body{margin:0;background:#EEF1F3;font-family:Inter,sans-serif}a{color:#4E8CE4}a:hover{color:#CADDF7}</style>
+</helmet>
+<div style="position:fixed;left:{{ left }}px;top:0;width:4672px;transform-origin:0 0;transform:scale({{ k }})">
+<section style="padding:64px 80px;display:flex;flex-direction:column;gap:40px;color:#0D1014">
+<div style="font-size:52px;font-weight:800;letter-spacing:-0.01em">Fossilflation · Jargon Giraffe glossary</div>
+<div style="display:flex;gap:64px;align-items:flex-start">
+<div style="display:flex;flex-direction:column;gap:20px;width:1080px">
+<div style="font-size:36px;font-weight:800;color:#2F6F95">Animation · ~15 s loop</div>
+<div style="width:1080px;height:1350px;background:#F6F7F8;overflow:hidden"><iframe src="Glossary%20Animation.dc.html" title="Glossary animation" style="width:1080px;height:1350px;border:0;display:block"></iframe></div>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px;width:1080px">
+<div style="font-size:36px;font-weight:800;color:#2F6F95">Carousel · Slide 1</div>
+<div data-screen-label="D2 Slide 1 Light" style="width:1080px;height:1350px;background:#F6F7F8;box-sizing:border-box;padding:80px;display:flex;flex-direction:column;gap:36px;overflow:hidden;color:#0D1014">
+<img src="assets/350-logo-blue.jpeg" alt="350" style="display:block;flex:none;align-self:flex-start;height:110px;width:auto;border-radius:22px">
+<div style="position:relative;background:#FFFFFF;border-radius:44px;padding:44px 56px 52px;display:flex;flex-direction:column;gap:10px;box-shadow:0 2px 0 #E1E6EA">
+<div style="font-size:40px;font-weight:500;line-height:1.25;text-wrap:pretty">Hi, I’m Jargon Giraffe. I’m here to turn climate jargon into plain talk. <span style="color:#50585C">Today’s word:</span></div>
+<div style="font-size:104px;font-weight:800;line-height:1;letter-spacing:-0.03em"><span style="outline:{{ phL }};outline-offset:10px;border-radius:8px">{{ term }}</span>.</div>
+<div style="position:absolute;left:250px;bottom:-22px;width:48px;height:48px;background:#FFFFFF;transform:rotate(45deg);border-radius:6px"></div>
+</div>
+<div style="flex:1;display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:24px;min-height:0">
+<img src="{{ g1 }}" alt="" style="width:100%;height:100%;object-fit:contain;object-position:left bottom;display:block;min-height:0">
+<div style="align-self:start;margin-top:28px;display:flex;flex-direction:column;align-items:center">
+<div style="width:360px;box-sizing:border-box;padding:40px 28px;background:#CADDF7;border-radius:28px;border-bottom:10px solid #448CB6;display:flex;justify-content:center"><span style="font-size:42px;font-weight:800;letter-spacing:-0.02em;white-space:nowrap;outline:{{ phL }};outline-offset:8px;border-radius:8px">{{ term }}</span></div>
+<div style="width:20px;height:340px;background:#D5DCE2"></div>
+</div>
+</div>
+<div style="display:flex;justify-content:flex-end;font-size:32px;font-weight:500;color:#2F6F95">What it means →</div>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px;width:1080px">
+<div style="font-size:36px;font-weight:800;color:#2F6F95">Carousel · Slide 2</div>
+<div data-screen-label="D2 Slide 2 Light" style="width:1080px;height:1350px;background:#F6F7F8;box-sizing:border-box;padding:80px;display:flex;flex-direction:column;gap:36px;overflow:hidden;color:#0D1014">
+<img src="assets/350-logo-blue.jpeg" alt="350" style="display:block;flex:none;align-self:flex-start;height:110px;width:auto;border-radius:22px">
+<div style="position:relative;background:#FFFFFF;border-radius:44px;padding:48px 56px 56px;box-shadow:0 2px 0 #E1E6EA">
+<div style="font-size:52px;font-weight:800;line-height:1.16;letter-spacing:-0.015em;text-wrap:pretty"><span style="outline:{{ phL }};outline-offset:10px;border-radius:8px">{{ def }}</span></div><sc-if value="{{ showAttr }}" hint-placeholder-val="{{ false }}"><div style="margin-top:20px;font-size:32px;font-weight:500;line-height:1.3;color:#50585C">— Candice Fortin, US Campaigns Manager, 350.org</div></sc-if>
+<div style="position:absolute;left:436px;bottom:-22px;width:48px;height:48px;background:#FFFFFF;transform:rotate(45deg);border-radius:6px"></div>
+</div>
+<div style="flex:1;min-height:0;position:relative;border-radius:36px;overflow:hidden;background:#1B292D url(assets/photo-shopper-meat.png) center/contain no-repeat" role="img" aria-label="A shopper in a backpack leans into a supermarket meat cooler, comparing packaged prices">
+<div style="position:absolute;right:20px;top:20px;background:rgba(13,16,20,0.82);color:#FFFFFF;border-radius:999px;padding:10px 20px;font-size:24px;font-weight:500">Photo: Juho Kuva / NYT</div>
+<img src="{{ g2 }}" alt="" style="position:absolute;right:-10px;bottom:-14px;width:230px;height:330px;object-fit:contain;object-position:right bottom">
+</div>
+<div style="display:flex;justify-content:flex-end;font-size:32px;font-weight:500;color:#2F6F95">Plain version →</div>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px;width:1080px">
+<div style="font-size:36px;font-weight:800;color:#2F6F95">Carousel · Slide 3</div>
+<div data-screen-label="D2 Slide 3 Light" style="width:1080px;height:1350px;background:#F6F7F8;box-sizing:border-box;padding:80px;display:flex;flex-direction:column;gap:36px;overflow:hidden;color:#0D1014">
+<img src="assets/350-logo-blue.jpeg" alt="350" style="display:block;flex:none;align-self:flex-start;height:110px;width:auto;border-radius:22px">
+<div style="position:relative;background:#FFFFFF;border-radius:44px;padding:48px 56px 56px;box-shadow:0 2px 0 #E1E6EA">
+<div style="font-size:52px;font-weight:800;line-height:1.16;letter-spacing:-0.015em;text-wrap:pretty"><span style="outline:{{ phL }};outline-offset:10px;border-radius:8px">{{ plain }}</span></div>
+<div style="position:absolute;right:250px;bottom:-22px;width:48px;height:48px;background:#FFFFFF;transform:rotate(45deg);border-radius:6px"></div>
+</div>
+<div style="flex:1;min-height:0;position:relative;border-radius:36px;overflow:hidden;background:#1B292D url(assets/photo-shopper-produce.png) center/contain no-repeat" role="img" aria-label="A shopper with a backpack stands in a produce market, facing hand-written price signs">
+<div style="position:absolute;right:20px;top:20px;background:rgba(13,16,20,0.82);color:#FFFFFF;border-radius:999px;padding:10px 20px;font-size:24px;font-weight:500">Photo: Hiroko Masuike / NYT</div>
+
+</div>
+<div style="flex:none;display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:24px;align-items:end">
+<div style="display:flex;flex-direction:column;justify-content:flex-end;gap:24px;padding-bottom:8px">
+<div style="font-size:32px;line-height:1.35;color:#50585C">Next up: a word from the campaign.</div>
+<div style="background:#CADDF7;border-radius:999px;padding:26px 36px;font-size:34px;font-weight:500;line-height:1.25;color:#0D1014;align-self:flex-start">Have you heard this word before?</div>
+</div>
+<img src="{{ g3 }}" alt="" style="width:200px;height:280px;object-fit:contain;object-position:right bottom;display:block">
+</div>
+<div style="font-size:24px;line-height:1.4;color:#50585C">Giraffe based on “CSS 3D Giraffe animated” by Jan Valkenburg (codepen.io/janvalkenburg), MIT License · with thanks to codepen.io/josetxu</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;copy&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Fossilflation&quot;,&quot;Placeholders&quot;],&quot;default&quot;:&quot;Fossilflation&quot;,&quot;tsType&quot;:&quot;string&quot;},&quot;placeholderMarks&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;showLight&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;}}">
+class Component extends DCLogic {
+  state = { g1: '', g2: '', g3: '', vw: window.innerWidth, vh: window.innerHeight };
+  componentWillUnmount() { window.removeEventListener('resize', this._onR); }
+  componentDidMount() {
+    this._onR = () => this.setState({ vw: window.innerWidth, vh: window.innerHeight }); window.addEventListener('resize', this._onR);
+    const go = () => {
+      if (!window.GiraffeRender) return setTimeout(go, 100);
+      window.GiraffeRender.ready.then(R => {
+        this.setState({
+          g1: R.frame({ yaw: 32, head: 12, pitch: 7, focus: 0.8, w: 1072, h: 1266 }),
+          g2: R.frame({ yaw: 18, head: 6, pitch: 7, mouth: 0.6, focus: 0.9, w: 680, h: 1400 }),
+          g3: R.frame({ yaw: -30, head: 6, pitch: 7, focus: 0.8, w: 880, h: 1300 }),
+        });
+      });
+    };
+    go();
+  }
+  renderVals() {
+    const ff = (this.props.copy ?? 'Fossilflation') === 'Fossilflation';
+    const marks = (this.props.placeholderMarks ?? true) && !ff;
+    const blank = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
+    const W = 4672, H = 64 * 2 + 64 + 40 + 44 + 20 + 1350;
+    const k = Math.min(this.state.vw / W, this.state.vh / H);
+    return {
+      k, left: Math.max(0, (this.state.vw - W * k) / 2),
+      phD: marks ? '3px dashed #CADDF7' : 'none',
+      phL: marks ? '3px dashed #448CB6' : 'none',
+      showLight: this.props.showLight ?? true,
+      term: ff ? 'Fossilflation' : '[TERM]',
+      def: ff ? 'When fossil fuel dependence leaves households at the mercy of war and volatile markets, it\u2019s ordinary people who pay the price.' : '[Insert agreed definition].',
+      plain: ff ? 'Affordable, homegrown, renewable energy shields people from fossil fuel crises.' : '[Insert agreed plain-language version].',
+      showAttr: ff, attrColor: '#BABFC0',
+      g1: this.state.g1 || blank, g2: this.state.g2 || blank, g3: this.state.g3 || blank,
+    };
+  }
+}
+</script>
+</body>
+</html>
